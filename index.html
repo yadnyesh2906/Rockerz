@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockerz - Music Control System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Rockerz Music Control System 🎵</h1>
+        <div class="music-player">
+            <div class="song-list">
+                <h2>Available Songs</h2>
+                <ul id="songList"></ul>
+            </div>
+            <div class="controls">
+                <audio id="audioPlayer" controls></audio>
+                <div class="buttons">
+                    <button id="playButton">Play</button>
+                    <button id="pauseButton">Pause</button>
+                    <button id="resumeButton">Resume</button>
+                    <button id="stopButton">Stop</button>
+                </div>
+            </div>
+        </div>
+        <div class="voice-control">
+            <h2>🎙️ Voice Commands</h2>
+            <button id="voiceCommandButton">Activate Voice Control</button>
+            <p id="commandOutput">Say "Play", "Pause", "Resume", "Stop", or "Play [song name]".</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
